@@ -1,0 +1,189 @@
+:root {
+  --color-top-nav: rgb(42, 6, 99);
+  --color-primary: rgb(218, 68, 153);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.5rem 4rem;
+  background: var(--color-top-nav);
+  color: white;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.1rem;
+}
+
+.socials i {
+  padding: 0.4rem;
+  font-size: 1.4rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.socials i:hover {
+  background: var(--color-primary);
+  border-radius: 6px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem 3rem;
+}
+
+.brand h1 {
+  color: var(--color-primary);
+  font-weight: 400;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.main-nav ul li {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(25, 25, 25);
+}
+
+.main img {
+  background-size: cover;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.welcome {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.welcome h1 {
+  color: var(--color-primary);
+  text-align: center;
+  padding: 2rem 0 1rem 0;
+}
+
+.room-types {
+  width: 85%;
+  display: flex;
+  margin: 2rem auto;
+  overflow: hidden;
+  gap: 2rem;
+}
+
+.card img {
+  width: 16rem;
+  height: 16rem;
+}
+
+.card p {
+  text-align: center;
+}
+
+.reservation {
+  border: 2px solid rgb(255, 196, 0);
+  margin: 4rem auto;
+  padding: 2rem;
+  width: 70%;
+  background: rgb(53 33 96 / 68%);
+  color: white;
+}
+
+.reservation h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.reservation input {
+  height: 2.5rem;
+  width: 100%;
+  background: rgb(53 33 96 / 68%);
+  color: white;
+}
+
+.selection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.selection select {
+  width: 48%;
+  height: 2rem;
+}
+
+.reservation button {
+  width: 100%;
+  height: 2rem;
+  background: var(--color-primary);
+  border: none;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.reservation button:hover {
+  background: #00b6ff;
+}
+
+.testimonials {
+  width: 90%;
+  margin: 3rem auto;
+  text-align: center;
+  color: #999;
+}
+
+.testimonials h1 {
+  color: #00b6ff;
+  margin-bottom: 1rem;
+}
+
+.hover-card {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hover-card h2 {
+  text-align: left;
+}
+
+.hover-card img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.hover-card p {
+  text-align: left;
+}
+
+footer {
+  padding: 3rem;
+  background: #333;
+  color: white;
+}
+
+.underline {
+  border-bottom: 1px rgb(71, 68, 68) solid;
+}
+
+.copyright {
+  text-align: center;
+  padding: 3rem;
+  border-bottom: 1px rgb(71, 68, 68) solid;
+  width: 100%;
+}
